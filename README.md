@@ -1,14 +1,19 @@
 # init
 quickly init a package or project
 
-# start
+# thanks
 
-this project/package depend on [vue-cli](https://github.com/vuejs/vue-cli)
+this project/package is Inspired by [vue-cli](https://github.com/vuejs/vue-cli)
 
-so,install vue-cli
+# install
 
->yarn global add vue-cli
+```sh
+# use npm
+> npm install -g jogiter
+# use yarn
+> yarn global add jogiter
+```
 
-then, you can create project/package with vue init
+# usage
 
->vue init Jogiter/init project-name
+>jogiter init Jogiter/init project-name
