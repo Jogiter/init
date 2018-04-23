@@ -1,1 +1,1 @@
-export var msg = 'Hello world';
+export var msg = 'Hello world'

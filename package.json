@@ -5,15 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint index.js bin lib"
+    "lint": "eslint --fix *.js"
   },
   "bin": {
     "jogiter": "./bin/jogiter"
   },
-  "keywords": [
-    "jogiter",
-    "cli"
-  ],
+  "keywords": ["jogiter", "cli"],
   "author": "jogiter",
   "license": "MIT",
   "devDependencies": {
